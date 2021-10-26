@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    align-items: center;
+}
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    composes: link;
+    color: #2196f3;
+}
