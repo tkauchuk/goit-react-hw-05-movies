@@ -27,3 +27,89 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button */
+.button {
+  display: block;
+  min-width: 50px;
+  margin-bottom: 15px;
+  padding: 4px;
+  background-color: #fff;
+  color: #212121;
+  border: 2px solid #2196f3;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 250ms linear;
+}
+.button:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+/* Additional-info-wrapper */
+
+.additional-info-wrapper {
+  margin-top: 15px;
+}
+
+.additional-info-text {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.film-img {
+  width: 200px;
+  background: #fff;
+}
+.additional-info-list {
+  padding-left: 15px;
+  list-style: square;
+}
+
+/* Cast */
+
+.cast-list {
+  margin-top: 25px;
+}
+.cast-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.cast-image {
+  width: 200px;
+}
+.cast-link {
+  color: black;
+}
+.active-cast-link {
+  color: #2196f3;
+}
+
+/* Reviews-list */
+.reviews-list {
+  margin-top: 15px;
+}
+.reviews-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.default-review {
+  margin-top: 15px;
+}
+
+/* Form */
+
+.form {
+  display: flex;
+  align-items: baseline;
+}
+.form-input {
+  margin-right: 10px;
+}

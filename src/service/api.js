@@ -16,8 +16,9 @@ export function getTrendingMovies() {
   return getCertainMovies(query);
 }
 
-function getMoviesByKeyword() {
-
+export function getMoviesByKeyword(movie) {
+  const query = `${URL}/search/movie?api_key=${key}&query=${movie}`;
+  return getCertainMovies(query);
 }
 
 export function getMovieDetails(id) {

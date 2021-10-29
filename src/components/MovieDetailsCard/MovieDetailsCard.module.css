@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+}
+
+.description {
+    margin-left: 10px;
+}
+
+.score {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.overview {
+    composes: score;
+}
+
+.list {
+    margin-top: 10px;
+    display: flex;
+}
+.item:not(:last-child) {
+    margin-right: 5px;
+}
